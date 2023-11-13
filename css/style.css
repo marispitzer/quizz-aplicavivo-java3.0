@@ -8,12 +8,13 @@
 }
 
 body{
-    background: rgb(90, 0, 187);
+    background: rgb(135,206,250);
+    
 }
 
 ::selection{
     color: #fff;
-    background: #007bff;
+    background: #00BFFF;
 }
 
 .start_btn,
@@ -24,8 +25,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(65,105,225), 
+                0 6px 20px 0 rgba(0,0,255);
 }
 
 .info_box.activeInfo,
@@ -51,7 +52,7 @@ body{
 }
 .start_btn button:hover{
     transform: scale(1.5);
-    color: rgb(90, 0, 187);
+    color: rgb(0,0,139);
 }
 
 .info_box{
@@ -87,7 +88,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #007bff;
+    color: #191970;
 }
 .info_box .buttons{
     height: 60px;
@@ -108,13 +109,13 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #B0E0E6;
     transition: all 0.3s ease;
 }
 
 .quiz_box{
     width: 550px;
-    background: #fff;
+    background: #0000CD;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -127,7 +128,7 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #FF00FF;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -164,12 +165,12 @@ body{
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: #fff;
+    color: #FF00FF;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #FF00FF;
+    border: 1px solid #FF00FF;
     user-select: none;
 }
 
@@ -178,12 +179,12 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #FF00FF;
 }
 
 section{
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #FF00FF;
 }
 
 section .que_text{
@@ -198,7 +199,7 @@ section .option_list{
 
 section .option_list .option{
     background: aliceblue;
-    border: 1px solid #84c5fe;
+    border: 1px solid #FF00FF;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -216,20 +217,20 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     color: #004085;
-    background: #cce5ff;
+    background: #FF00FF;
     border: 1px solid #b8daff;
 }
 
 section .option_list .option.correct{
     color: #155724;
     background: #d4edda;
-    border: 1px solid #c3e6cb;
+    border: 1px solid #FF00FF;
 }
 
 section .option_list .option.incorrect{
     color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    background: #FF00FF;
+    border: 1px solid #FF00FF;
 }
 
 section .option_list .option.disabled{
@@ -248,14 +249,14 @@ section .option_list .option .icon{
     line-height: 24px;
 }
 .option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
-    background: #d4edda;
+    color: #FF00FF;
+    border-color: #FF00FF;
+    background: #FF00FF;
 }
 
 .option_list .option .icon.cross{
-    color: #a42834;
-    background: #f8d7da;
+    color: #FF00FF;
+    background: #FF00FF;
     border-color: #a42834;
 }
 
@@ -292,8 +293,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #FF00FF;
+    border: 1px solid #FF00FF;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -302,7 +303,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #0263ca;
+    background: #FF00FF;
 }
 
 footer button.show{
@@ -312,7 +313,7 @@ footer button.show{
 }
 
 .result_box{
-    background: #fff;
+    background: #FF00FF;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -328,7 +329,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #007bff;
+    color: #FF00FF
     margin-bottom: 10px;
 }
 
@@ -369,8 +370,8 @@ footer button.show{
 }
 
 .buttons button.restart{
-    color: #fff;
-    background: #007bff;
+    color: #FF00FF;
+    background: #FF00FF;
 }
 
 .buttons button.restart:hover{
@@ -378,11 +379,11 @@ footer button.show{
 }
 
 .buttons button.quit{
-    color: #007bff;
-    background: #fff;
+    color: #FF00FF;
+    background: #FF00FF;
 }
 
 .buttons button.quit:hover{
-    color: #fff;
-    background: #007bff;
+    color: #FF00FF;
+    background: #FF00FF;
 }
