@@ -144,6 +144,18 @@ let questions = [
     ]
 },
 {
+    numb: 14,
+      question: " Quantos ossos temos no nosso corpo?", 
+    answer: ""
+    options:" [
+  "100 ºC."
+"-10 ºC"
+"0 ºC"
+"200 ºC"
+    ]
+},
+{
+   
   
     
       
